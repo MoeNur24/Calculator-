@@ -24,7 +24,7 @@ function add(num1, num2) {
   
     let result;
     if (operator === "add") {
-      result = ad(number1, number2);
+      result = add(number1, number2);
     } else if (operator === "subtract") {
       result = subtract(number1, number2);
     } else if (operator === "multiply") {
